@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "basic test",
+      "setup": "",
+      "run": "python huffman.py -t",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "run on input.txt",
+      "setup": "",
+      "run": "python huffman.py -c input.txt compressed.bin",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    },
+    {
+      "name": "check file size",
+      "setup": "",
+      "run": "python huffman.py -s input.txt compressed.bin",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
